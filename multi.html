@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Multiplayer Card Game</title>
+    <link rel="stylesheet" href="multi.css"/>
+    <script src="multi.js" defer></script>
+</head>
+<body>
+    <button id="backButton">Back</button>
+    <h1 id="countText">3</h1>
+    <h2 id="timerText"></h2>
+
+    <div class="game-container">
+        <div class="player-grid">
+            <h2>Player 1</h2>
+            <div class="row" id="cardArea1">
+                <!-- Player 1's cards will be generated here -->
+                <div class="column" id="column1">
+                    <img src="images/cardflipped.jpg" alt="card" id="card1-0" onclick="flipCard(this.id, 1)">
+                    <img src="images/cardflipped.jpg" alt="card" id="card1-1" onclick="flipCard(this.id, 1)">
+                    <img src="images/cardflipped.jpg" alt="card" id="card1-2" onclick="flipCard(this.id, 1)">
+                    <img src="images/cardflipped.jpg" alt="card" id="card1-3" onclick="flipCard(this.id, 1)">
+                    <img src="images/cardflipped.jpg" alt="card" id="card1-4" onclick="flipCard(this.id, 1)">
+                </div>
+                <div class="column" id="column2">
+                    <img src="images/cardflipped.jpg" alt="card" id="card1-5" onclick="flipCard(this.id, 1)">
+                    <img src="images/cardflipped.jpg" alt="card" id="card1-6" onclick="flipCard(this.id, 1)">
+                    <img src="images/cardflipped.jpg" alt="card" id="card1-7" onclick="flipCard(this.id, 1)">
+                    <img src="images/cardflipped.jpg" alt="card" id="card1-8" onclick="flipCard(this.id, 1)">
+                    <img src="images/cardflipped.jpg" alt="card" id="card1-9" onclick="flipCard(this.id, 1)">
+                </div>
+                <div class="column" id="column3">
+                    <img src="images/cardflipped.jpg" alt="card" id="card1-10" onclick="flipCard(this.id, 1)">
+                    <img src="images/cardflipped.jpg" alt="card" id="card1-11" onclick="flipCard(this.id, 1)">
+                    <img src="images/cardflipped.jpg" alt="card" id="card1-12" onclick="flipCard(this.id, 1)">
+                    <img src="images/cardflipped.jpg" alt="card" id="card1-13" onclick="flipCard(this.id, 1)">
+                    <img src="images/cardflipped.jpg" alt="card" id="card1-14" onclick="flipCard(this.id, 1)">
+                </div>
+                <div class="column" id="column4">
+                    <img src="images/cardflipped.jpg" alt="card" id="card1-15" onclick="flipCard(this.id, 1)">
+                    <img src="images/cardflipped.jpg" alt="card" id="card1-16" onclick="flipCard(this.id, 1)">
+                    <img src="images/cardflipped.jpg" alt="card" id="card1-17" onclick="flipCard(this.id, 1)">
+                    <img src="images/cardflipped.jpg" alt="card" id="card1-18" onclick="flipCard(this.id, 1)">
+                    <img src="images/cardflipped.jpg" alt="card" id="card1-19" onclick="flipCard(this.id, 1)">
+                </div>
+            </div>
+        </div>
+        <div class="player-grid">
+            <h2>Player 2</h2>
+            <div class="row" id="cardArea2">
+                <!-- Player 2's cards will be generated here -->
+                <div class="column" id="column1">
+                    <img src="images/cardflipped.jpg" alt="card" id="card2-0" onclick="flipCard(this.id, 2)">
+                    <img src="images/cardflipped.jpg" alt="card" id="card2-1" onclick="flipCard(this.id, 2)">
+                    <img src="images/cardflipped.jpg" alt="card" id="card2-2" onclick="flipCard(this.id, 2)">
+                    <img src="images/cardflipped.jpg" alt="card" id="card2-3" onclick="flipCard(this.id, 2)">
+                    <img src="images/cardflipped.jpg" alt="card" id="card2-4" onclick="flipCard(this.id, 2)">
+                </div>
+                <div class="column" id="column2">
+                    <img src="images/cardflipped.jpg" alt="card" id="card2-5" onclick="flipCard(this.id, 2)">
+                    <img src="images/cardflipped.jpg" alt="card" id="card2-6" onclick="flipCard(this.id, 2)">
+                    <img src="images/cardflipped.jpg" alt="card" id="card2-7" onclick="flipCard(this.id, 2)">
+                    <img src="images/cardflipped.jpg" alt="card" id="card2-8" onclick="flipCard(this.id, 2)">
+                    <img src="images/cardflipped.jpg" alt="card" id="card2-9" onclick="flipCard(this.id, 2)">
+                </div>
+                <div class="column" id="column3">
+                    <img src="images/cardflipped.jpg" alt="card" id="card2-10" onclick="flipCard(this.id, 2)">
+                    <img src="images/cardflipped.jpg" alt="card" id="card2-11" onclick="flipCard(this.id, 2)">
+                    <img src="images/cardflipped.jpg" alt="card" id="card2-12" onclick="flipCard(this.id, 2)">
+                    <img src="images/cardflipped.jpg" alt="card" id="card2-13" onclick="flipCard(this.id, 2)">
+                    <img src="images/cardflipped.jpg" alt="card" id="card2-14" onclick="flipCard(this.id, 2)">
+                </div>
+                <div class="column" id="column4">
+                    <img src="images/cardflipped.jpg" alt="card" id="card2-15" onclick="flipCard(this.id, 2)">
+                    <img src="images/cardflipped.jpg" alt="card" id="card2-16" onclick="flipCard(this.id, 2)">
+                    <img src="images/cardflipped.jpg" alt="card" id="card2-17" onclick="flipCard(this.id, 2)">
+                    <img src="images/cardflipped.jpg" alt="card" id="card2-18" onclick="flipCard(this.id, 2)">
+                    <img src="images/cardflipped.jpg" alt="card" id="card2-19" onclick="flipCard(this.id, 2)">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

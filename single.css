@@ -1,0 +1,43 @@
+body {
+	font-family: Arial, sans-serif;
+	text-align: center;
+    background-image: url('images/single6.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+#backButton {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: bisque;
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    border: none;
+}
+
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	font-size: 800%;
+}
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+}
+
+img {
+	border-radius: 5%;
+	width:10%;
+}
+
+img:hover{
+	opacity: 70%;
+}
+
+#cardArea{
+	visibility: hidden;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
